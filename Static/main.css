@@ -1,0 +1,19 @@
+.hero {
+    background: url('/Static/images/sz_bay.png') center / cover;
+}
+.navbar-brand {
+    font-size: 150%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+.navbar-item {
+    font-weight: bold;
+}
+
+h1.title {
+    color: grey;
+}
+
+h2.subtitle {
+    color: white;
+}

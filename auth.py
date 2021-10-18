@@ -13,7 +13,7 @@ def login():
         email = request.form.get('email')
         password = request.form.get('password')
         remember = True if request.form.get('remember') else False
-        user = User.Query.filter_by(email=email).first()
+        user = User.query.filter_by(email=email).first()
         
         if not user:
             flash('Please sign up first!')
